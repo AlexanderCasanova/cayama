@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.scss'],
   animations: [
     trigger('inOutTrigger', [
-      state('out',style({marginTop: '-110%'})),
+      state('out',style({marginTop: '-250%',height:'70px'})),
       state('in',style({marginTop: '0%'})),
       transition('in => out', [
         animate('800ms ease-in')
