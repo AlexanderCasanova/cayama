@@ -4,6 +4,7 @@
 
 .navbarmobil {
     position: fixed;
+    z-index: 10000;
     width: 100%;
     padding: 0px 15px;
     background-color: rgba(0, 46, 146, 0.603);
