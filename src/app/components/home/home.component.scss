@@ -1,4 +1,51 @@
 
+a{
+  text-decoration: none;
+}
+.cayama-header{
+
+  width: 90%;
+  height: 470px;
+  
+  background: url("../../../assets/img2.png") no-repeat center center/cover;
+  
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  font-family: "Oswald", sans-serif;
+}
+
+.btn-home{
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #262626;
+  color: #fff;
+  font-size: 15px;
+  border: 2px solid #320303;
+  margin: 10px 0;
+}
+.btn-home:hover {
+  opacity: 0.9;
+}
+
+.news-cards img {
+  width: 100%;
+  height: 180px;
+}
+
+.news-cards {
+  
+  margin-top: 40px;
+  margin-top: 30px;
+}
+
+/*
 body {
     font-family: "Oswald", sans-serif;
     background-color: #000000;
@@ -7,24 +54,6 @@ body {
     font-size: 16px;
   }
 
-  .container {
-    width: 90%;
-    margin: auto;
-  }
-
-.cayama-header{
-
-    width: 100%;
-    height: 550px;
-    
-    background: url("../../../assets/didi.jpg") no-repeat center center/cover;
-    padding-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: flex-end;
-}
 
 .btn-home{
     cursor: pointer;
@@ -41,4 +70,4 @@ body {
 .btn-home:hover {
     opacity: 0.9;
   }
-  
+*/
