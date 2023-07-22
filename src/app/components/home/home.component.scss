@@ -43,8 +43,35 @@ a{
   
   margin-top: 40px;
   margin-top: 30px;
+  
 }
 
+.icono-wrap p{
+ // max-height: 200px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+
+}
+@media (max-width: 767px) {
+
+  .icono-wrap{
+
+    flex-wrap:wrap !important;
+    justify-content: center !important;
+    text-align: center;
+    max-width: 70%;
+
+}
+.caya-cards{
+  flex-wrap:wrap !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+}
 /*
 body {
     font-family: "Oswald", sans-serif;
