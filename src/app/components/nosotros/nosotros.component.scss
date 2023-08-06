@@ -1,0 +1,122 @@
+.nosotros{
+    padding-top: 25px;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(180deg, #000 0%, rgba(32, 173, 216, 0.70) 100%);
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  
+}
+.nostros-desc{
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.nostros-desc h2{
+    color: #43DEDC;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.nostros-desc p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cards{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cards-colum{
+    margin: 20px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.icono-wrap{
+    padding: 20px;
+    border-radius: 30px;
+    background: rgba(71, 54, 71, 0.30);
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.40);
+   
+}
+.icono-wrap h3{
+    padding-bottom:  30px;
+    color: #43DEDC;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.icono-wrap p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card-img{
+    display: flex; /* Utiliza el layout flexbox */
+    justify-content: center; 
+    padding-top: 30px;
+}
+
+.card-img img{
+  
+    max-width: 60%; /* Asegura que la imagen no supere el ancho del div contenedor */
+    height: 65%;
+
+    border-radius: 20px; /* Radio de redondeo, puedes ajustar el valor según tus preferencias */
+    border: 2px solid #ccc; 
+
+}
+.subrayo{
+    height: 3px;
+    background: #43DEDC;
+    box-shadow: 0px 2px 5px 0px rgba(32, 173, 216, 0.80);   
+    margin-bottom: 20px;
+}
+
+@media(max-width: 800px) {
+    .nosotros{
+        grid-template-columns: 1fr;   
+        background: linear-gradient(180deg, #000 0%, rgba(32, 173, 216, 0.70) 100%);
+
+    }
+    .nostros-desc{
+        display: inline-flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .nostros-desc p{
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+
+    .cards-colum{
+        margin: 20px;
+        gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}

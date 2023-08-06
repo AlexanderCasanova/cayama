@@ -7,7 +7,8 @@
     text-decoration: none;
 }
 .home{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url(../../../assets/fondo3.png);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url(../../../assets/fondo3.png);
+    /*background: linear-gradient(180deg, rgba(32, 173, 216, 0.70) 0%, #000 100%);*/
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -17,6 +18,7 @@
     flex-direction: column;
     justify-content: center;
     font-family: "Oswald", sans-serif;
+    margin-bottom:  70px;
 
 }
 
@@ -31,7 +33,7 @@
 
     color: #43DEDC;
     font-family: Inter;
-    font-size: 30px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -42,7 +44,7 @@
    
     color: white;
     font-family: Inter;
-    font-size: 17px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -70,4 +72,15 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+@media(max-width: 800px){
+    .home{
+        text-align: center;
+    }
+    .btn-header{
+        display: flex; /* Utiliza el layout flexbox */
+        justify-content: center; /* Centra horizontalmente los divs */
+        align-items: center; /* Centra verticalmente los divs */
+    }
 }
