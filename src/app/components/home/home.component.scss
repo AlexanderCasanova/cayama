@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.home{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url(../../../assets/fondo3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    /*padding-bottom: 50px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+
+}
+
+.home > * {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+    
+}
+
+.home h2{
+
+    color: #43DEDC;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  
+    
+}
+.home p{
+   
+    color: white;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ 
+}
+.btn-header{
+    display: inline-flex;
+    gap: 20px;
+}
+.btn-home{
+    background-color:#20ADD8;
+    border-radius: 50px;
+    padding: 10px;
+}
+.btn-home:hover {
+    opacity: 0.9;
+    background-color:#616769;
+    transition: background-color 0.4s ease;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+.btn-home a{
+    color: #120A0B;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
