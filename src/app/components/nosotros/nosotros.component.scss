@@ -19,7 +19,7 @@
 .nostros-desc h2{
     color: #43DEDC;
     font-family: Inter;
-    font-size: 48px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -27,7 +27,7 @@
 .nostros-desc p{
     color: #FFF;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -50,13 +50,13 @@
     border-radius: 30px;
     background: rgba(71, 54, 71, 0.30);
     box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.40);
-   
+    max-width: 400px;
 }
 .icono-wrap h3{
     padding-bottom:  30px;
     color: #43DEDC;
     font-family: Inter;
-    font-size: 36px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -64,7 +64,7 @@
 .icono-wrap p{
     color: #FFF;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -91,7 +91,7 @@
     margin-bottom: 20px;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 1024px) {
     .nosotros{
         grid-template-columns: 1fr;   
         background: linear-gradient(180deg, #000 0%, rgba(32, 173, 216, 0.70) 100%);
@@ -116,7 +116,19 @@
         margin: 20px;
         gap: 20px;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
+}
+
+@media(max-width: 650px){
+    .cards-colum{
+        margin: 20px;
+        gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .icono-wrap{
+        margin: auto;
+    }
 }
