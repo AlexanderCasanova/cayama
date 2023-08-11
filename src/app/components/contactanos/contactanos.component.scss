@@ -71,7 +71,7 @@
     border-radius: 20px;
     background: rgba(71, 54, 71, 0.60);
 }
-.contact-form  button{
+.contact-form  .button{
     display: flex;
     width: 150px;
     height: 50px;
@@ -83,7 +83,7 @@
     border-radius: 50px;
     background: rgba(71, 54, 71, 0.30);
 }
-button{
+.button{
     color: #20ADD8;
     /* Raleway\H4Style */
     font-family: Raleway;
@@ -93,7 +93,7 @@ button{
     line-height: normal;
     cursor: pointer;
 }
-button:hover{
+.button:hover{
     color: #632121;
 }
 .button-form{
